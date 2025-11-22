@@ -17327,6 +17327,7 @@ GameObject:
   - component: {fileID: 1003433097}
   - component: {fileID: 1003433096}
   - component: {fileID: 1003433099}
+  - component: {fileID: 1003433100}
   m_Layer: 0
   m_Name: Lucas
   m_TagString: NPC
@@ -17462,6 +17463,43 @@ MonoBehaviour:
     viajaremos para o passado para estudar a hist\xF3ria\u2026 na sua fonte."
   dialogueUI: {fileID: 1670211780}
   playerController: {fileID: 0}
+--- !u!70 &1003433100
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003433095}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.0000038146973, y: 0.0000019073486}
+  m_Size: {x: 1.875, y: 2.75}
+  m_Direction: 0
 --- !u!1 &1209594225
 GameObject:
   m_ObjectHideFlags: 0
@@ -18420,7 +18458,6 @@ MonoBehaviour:
   panel: {fileID: 2034739958}
   nameText: {fileID: 65605166}
   dialogueText: {fileID: 580936980}
-  nextButton: {fileID: 0}
   typingSpeed: 0.03
 --- !u!1 &1754490593
 GameObject:
@@ -18435,6 +18472,7 @@ GameObject:
   - component: {fileID: 1754490595}
   - component: {fileID: 1754490594}
   - component: {fileID: 1754490598}
+  - component: {fileID: 1754490599}
   m_Layer: 0
   m_Name: Robo
   m_TagString: NPC
@@ -18592,6 +18630,43 @@ MonoBehaviour:
     tem limite."
   dialogueUI: {fileID: 1670211780}
   playerController: {fileID: 0}
+--- !u!70 &1754490599
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754490593}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.0000038146973}
+  m_Size: {x: 1.5, y: 1.625}
+  m_Direction: 0
 --- !u!1 &1763013499
 GameObject:
   m_ObjectHideFlags: 0
@@ -20485,6 +20560,7 @@ GameObject:
   - component: {fileID: 1805849273}
   - component: {fileID: 1805849272}
   - component: {fileID: 1805849275}
+  - component: {fileID: 1805849276}
   m_Layer: 0
   m_Name: Manoel
   m_TagString: NPC
@@ -20527,7 +20603,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 2, y: 3}
+  m_Size: {x: 1.7, y: 2.6}
   m_Direction: 0
 --- !u!212 &1805849273
 SpriteRenderer:
@@ -20619,6 +20695,43 @@ MonoBehaviour:
   - "Sim\u2026 fi\xE9is. Fi\xE9is \xE0 Coroa de Portugal, sobretudo."
   dialogueUI: {fileID: 1670211780}
   playerController: {fileID: 0}
+--- !u!70 &1805849276
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805849271}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 1.7, y: 2.6}
+  m_Direction: 0
 --- !u!1 &1897974264
 GameObject:
   m_ObjectHideFlags: 0
@@ -22422,6 +22535,7 @@ GameObject:
   - component: {fileID: 2013114301}
   - component: {fileID: 2013114300}
   - component: {fileID: 2013114303}
+  - component: {fileID: 2013114304}
   m_Layer: 0
   m_Name: Mateus
   m_TagString: NPC
@@ -22464,7 +22578,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 2, y: 3}
+  m_Size: {x: 1.7, y: 2.6}
   m_Direction: 0
 --- !u!212 &2013114301
 SpriteRenderer:
@@ -22557,6 +22671,43 @@ MonoBehaviour:
     resultados permane\xE7am fi\xE9is."
   dialogueUI: {fileID: 1670211780}
   playerController: {fileID: 0}
+--- !u!70 &2013114304
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013114299}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 1.7, y: 2.6}
+  m_Direction: 0
 --- !u!1 &2034739958
 GameObject:
   m_ObjectHideFlags: 0
